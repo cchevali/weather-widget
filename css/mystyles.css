@@ -1,0 +1,52 @@
+/* App background color */
+body {
+    background: #cceaff;
+}
+
+/* Widget sizing, position, and style */
+.widget-style {
+    border-radius: 10px;
+    border: 2px solid #808080;
+    box-shadow: 10px 10px 5px #888888;
+    padding: 8px; 
+    width: 310px;
+    height: 160px;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background: #ffffff;
+}
+
+/* Reduce margin inside widget elemetns */
+.inner-widget-margin {
+    margin: 0px;
+}
+
+/* Center within div */
+.row.text-center > div {
+    display: inline-block;
+    float: none;
+}
+
+/* Vertical lines between elements */
+.verticalLine:not(:first-child) {
+    border-left: solid 1px #D3D3D3;
+}
+
+/* Bold 11px text */
+.bolder-text {
+    font-size: 11px;
+    font-weight: bold;
+}
+
+/* 50px sans-serif text */
+.temp-text {
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+/* 50px sans-serif text */
+.title-text {
+    font-size: 18px;
+    font-family: sans-serif;
+}
