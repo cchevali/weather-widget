@@ -2,7 +2,7 @@
 // AngularJS controller with ngSanitize dependency
 var app = angular.module('weatherWidget', ["ngSanitize"]);
 app.controller('weatherController', function($scope, $http) {
-    var callAPI = "//query.yahooapis.com/v1/public/yql?q=select%20item%20from%20weather.forecast%20where%20location%3D%2222102%22&format=json";
+    var callAPI = "http://query.yahooapis.com/v1/public/yql?q=select%20item%20from%20weather.forecast%20where%20location%3D%2222102%22&format=json";
     $http.get(callAPI)
         .success(function(data) {
             // Set local variables from JSON
