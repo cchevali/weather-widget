@@ -20,7 +20,8 @@ app.controller('weatherController', function($scope, $http) {
         });
 });
 
-// Manipulate title string to return just city and state
+// Manipulate title string to return just city and state. 
+// Note: This will not correctly grab cities with two-word names (e.g. New York)
 function getCity(string) {
     var splitString = string.split(",");
     var city = splitString[0].split(" ").pop();
