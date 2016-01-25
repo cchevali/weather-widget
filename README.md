@@ -1,2 +1,2 @@
 # weather-widget
-Weather forecast widget
+Weather forecast widget built using AngularJS and Bootstrap.
